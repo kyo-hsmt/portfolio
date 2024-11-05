@@ -1,0 +1,14 @@
+name: pygis
+channels:
+  - conda-forge
+  - default
+dependencies:
+  - python==3.9.*
+  - osmnx
+  - geopy
+  - geoplot
+  - geopandas
+  - plotly
+  - streamlit
+  - pip
+  - ipykernel
