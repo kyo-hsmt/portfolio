@@ -65,7 +65,10 @@ Caplan, J., Kennedy, L., and Barnum , J.  Risk Terrain Modeling for Spatial Risk
 ・ChicagoDataPortalのapiを利用
 
 ・特徴量エンジニアリング
-![image](https://github.com/user-attachments/assets/9bfe78b6-e2c3-4c4c-acb4-11b8b3aa4ce1)
+
+・座標系の変換
+![image](https://github.com/user-attachments/assets/97a1a031-8b1e-42d4-8fc6-c18b0010b61e)
+
 
 
 
