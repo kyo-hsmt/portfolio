@@ -3,7 +3,7 @@
 ・既存の地理的犯罪予測手法であるRTMをスクラッチで実装し、予測精度と解釈性の観点から改良しました。   
 ・B4の卒業研究では、このモデルに統計的因果推論を応用して各変数間の因果関係を推計する予定です。  
 
-# RiskTerrainModeling(RTM)の概要
+## RiskTerrainModeling(RTM)の概要
 Caplan, J., Kennedy, L., and Barnum , J.  Risk Terrain Modeling for Spatial Risk Assessment,2015  
 (https://academicworks.cuny.edu/cgi/viewcontent.cgi?article=1192&context=jj_pubs)
 
@@ -17,34 +17,34 @@ Caplan, J., Kennedy, L., and Barnum , J.  Risk Terrain Modeling for Spatial Risk
 
 ![image](https://github.com/user-attachments/assets/7832af67-ed6b-4c4c-8559-56ff89e68947)
 
-# RTMのアルゴリズム
+## RTMのアルゴリズム
 
 ![image](https://github.com/user-attachments/assets/7d87769f-7762-4326-a23a-bcd1e37cb728)
 
-# レイヤーの構成
+## レイヤーの構成
 
 ![image](https://github.com/user-attachments/assets/18e63130-2587-4199-9552-22aef4e58a4d)
 
-# データの前処理
+## データの前処理
 
 ![image](https://github.com/user-attachments/assets/11f93adf-ec4b-464d-ad36-58f9debb6af4)
 
-# Lasso回帰で変数選択
+## Lasso回帰で変数選択
 
 ![image](https://github.com/user-attachments/assets/05070405-f506-4a5e-b887-afc82ba8254c)
 
-# 実験条件
+## 実験条件
 
 ![image](https://github.com/user-attachments/assets/f7ad9b3f-4aab-44e4-be5b-f39e0c835fb3)
 
-# 学習結果の図示
+## 学習結果の図示
 ![image](https://github.com/user-attachments/assets/24c5d32a-988f-407e-8b37-1e22cc81f228)
 
-# 学習結果の比較
+## 学習結果の比較
 
 ![image](https://github.com/user-attachments/assets/5ac5667f-ec94-4e40-98ca-37920f1a8527)
 
-# 実行環境
+## 実行環境
 
 ![image](https://github.com/user-attachments/assets/305aba37-3e21-4d34-b5d9-ca240f8833c6)
 
