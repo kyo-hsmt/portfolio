@@ -16,9 +16,9 @@ Caplan, J., Kennedy, L., and Barnum , J.  Risk Terrain Modeling for Spatial Risk
 
 ・犯罪に関連する**地理的要因の重要度**を分析
 
-・左図：元論文のモデルの犯罪リスク予測結果
+・**左図**：元論文のモデルの犯罪リスク予測結果
 
-・右図：実際に犯罪が起こった場所
+・**右図**：実際に犯罪が起こった場所
 
 
 ![image](https://github.com/user-attachments/assets/7832af67-ed6b-4c4c-8559-56ff89e68947)
@@ -67,6 +67,8 @@ Caplan, J., Kennedy, L., and Barnum , J.  Risk Terrain Modeling for Spatial Risk
 ・特徴量エンジニアリング
 
 ・座標系の変換
+
+
 ![image](https://github.com/user-attachments/assets/97a1a031-8b1e-42d4-8fc6-c18b0010b61e)
 
 
