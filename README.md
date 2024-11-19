@@ -23,6 +23,12 @@ Caplan, J., Kennedy, L., and Barnum , J.  Risk Terrain Modeling for Spatial Risk
 
 ![image](https://github.com/user-attachments/assets/7832af67-ed6b-4c4c-8559-56ff89e68947)
 
+![image](https://github.com/user-attachments/assets/7d87769f-7762-4326-a23a-bcd1e37cb728)
+
+## 実装
+
+![image](https://github.com/user-attachments/assets/18e63130-2587-4199-9552-22aef4e58a4d)
+
 
 
 
