@@ -4,8 +4,8 @@ pythonを使用した犯罪予測アルゴリズムの実装です。
 
 
 
-## 既存手法
-### RiskTerrainModeling(RTM)の概要
+# 既存手法
+## RiskTerrainModeling(RTM)の概要
 Caplan, J., Kennedy, L., and Barnum , J.  Risk Terrain Modeling for Spatial Risk Assessment,2015(https://academicworks.cuny.edu/cgi/viewcontent.cgi?article=1192&context=jj_pubs)
 
 ・地理情報を活用して犯罪リスクを予測する手法
@@ -23,11 +23,30 @@ Caplan, J., Kennedy, L., and Barnum , J.  Risk Terrain Modeling for Spatial Risk
 
 ![image](https://github.com/user-attachments/assets/7832af67-ed6b-4c4c-8559-56ff89e68947)
 
+# RTMのアルゴリズム
+
 ![image](https://github.com/user-attachments/assets/7d87769f-7762-4326-a23a-bcd1e37cb728)
 
-## 実装
+# レイヤーの構成
 
 ![image](https://github.com/user-attachments/assets/18e63130-2587-4199-9552-22aef4e58a4d)
+
+# データの前処理
+
+![image](https://github.com/user-attachments/assets/11f93adf-ec4b-464d-ad36-58f9debb6af4)
+
+# Lasso回帰で変数選択
+
+![image](https://github.com/user-attachments/assets/05070405-f506-4a5e-b887-afc82ba8254c)
+
+# 実験条件
+
+![image](https://github.com/user-attachments/assets/f7ad9b3f-4aab-44e4-be5b-f39e0c835fb3)
+
+# 学習結果の図示
+![image](https://github.com/user-attachments/assets/24c5d32a-988f-407e-8b37-1e22cc81f228)
+
+
 
 
 
