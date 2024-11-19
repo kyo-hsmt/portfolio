@@ -1,24 +1,18 @@
 # 地理的犯罪予測手法の改良
 ・pythonを使用した犯罪予測アルゴリズムの実装です。  
 ・既存の地理的犯罪予測手法であるRTMをスクラッチで実装し、予測精度と解釈性の観点から改良しました。 
-・B4の卒業研究では、このモデルに統計的因果推論を応用して各変数間の因果関係を推計する予定です。 
+・B4の卒業研究では、このモデルに統計的因果推論を応用して各変数間の因果関係を推計する予定です。  
 
 # RiskTerrainModeling(RTM)の概要
-Caplan, J., Kennedy, L., and Barnum , J.  Risk Terrain Modeling for Spatial Risk Assessment,2015
-
+Caplan, J., Kennedy, L., and Barnum , J.  Risk Terrain Modeling for Spatial Risk Assessment,2015  
 (https://academicworks.cuny.edu/cgi/viewcontent.cgi?article=1192&context=jj_pubs)
 
-・地理情報を活用して犯罪リスクを予測する手法
-
-・犯罪に関連する**地理的要因（空き家,放置車両,etc) の位置情報**を利用して、将来的な犯罪リスクを予測
-
-・視覚的に**高リスクエリア** と**低リスクエリア**を表現
-
-・犯罪に関連する**地理的要因の重要度**を分析
-
-・**左図**：元論文のモデルの犯罪リスク予測結果
-
-・**右図**：実際に犯罪が起こった場所
+・地理情報を活用して犯罪リスクを予測する手法  
+・犯罪に関連する**地理的要因（空き家,放置車両,etc) の位置情報**を利用して、将来的な犯罪リスクを予測  
+・視覚的に**高リスクエリア** と**低リスクエリア**を表現  
+・犯罪に関連する**地理的要因の重要度**を分析  
+・**左図**：元論文のモデルの犯罪リスク予測結果  
+・**右図**：実際に犯罪が起こった場所  
 
 
 ![image](https://github.com/user-attachments/assets/7832af67-ed6b-4c4c-8559-56ff89e68947)
@@ -58,16 +52,11 @@ Caplan, J., Kennedy, L., and Barnum , J.  Risk Terrain Modeling for Spatial Risk
 
 
 ## makeGDF.ipynb
-・シカゴを対象領域として、グリッドマップを作成
-
-・犯罪に関連する地理的要因の位置情報を格納したGeoDataframeを作成
-
-・ChicagoDataPortalのapiを利用
-
-・特徴量エンジニアリング
-
-・座標系の変換
-
+・シカゴを対象領域として、グリッドマップを作成  
+・犯罪に関連する地理的要因の位置情報を格納したGeoDataframeを作成  
+・ChicagoDataPortalのapiを利用  
+・特徴量エンジニアリング  
+・座標系の変換  
 
 ![image](https://github.com/user-attachments/assets/97a1a031-8b1e-42d4-8fc6-c18b0010b61e)
 
@@ -76,8 +65,6 @@ Caplan, J., Kennedy, L., and Barnum , J.  Risk Terrain Modeling for Spatial Risk
 
 ## featureGDF_2011_13.ipynb
 
-・作成したGeoDataframeを利用して、犯罪リスクを予測
-
-・学習結果を図示し、実際の犯罪分布と比較
-
+・作成したGeoDataframeを利用して、犯罪リスクを予測  
+・学習結果を図示し、実際の犯罪分布と比較  
 ![image](https://github.com/user-attachments/assets/c52a46a5-e55e-462f-9f6b-8b37da56a861)
