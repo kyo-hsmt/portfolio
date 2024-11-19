@@ -46,24 +46,33 @@ Caplan, J., Kennedy, L., and Barnum , J.  Risk Terrain Modeling for Spatial Risk
 # 学習結果の図示
 ![image](https://github.com/user-attachments/assets/24c5d32a-988f-407e-8b37-1e22cc81f228)
 
+# 学習結果の比較
+
+![image](https://github.com/user-attachments/assets/5ac5667f-ec94-4e40-98ca-37920f1a8527)
+
+# 実行環境
+
+![image](https://github.com/user-attachments/assets/305aba37-3e21-4d34-b5d9-ca240f8833c6)
 
 
 
 
-
-### makeGDF.ipynb
+## makeGDF.ipynb
 ・シカゴを対象領域として、グリッドマップを作成
 
 ・犯罪に関連する地理的要因の位置情報を格納したGeoDataframeを作成
 
 ・ChicagoDataPortalのapiを利用
 
-### featureGDF_2011_13.ipynb:作成したGeoDataframeを利用して、犯罪リスクを予測
+・特徴量エンジニアリング
+![image](https://github.com/user-attachments/assets/9bfe78b6-e2c3-4c4c-acb4-11b8b3aa4ce1)
 
-・2011年～2013年を学習データ
 
-・2014年をテストデータ
 
-・
+## featureGDF_2011_13.ipynb
+
+・作成したGeoDataframeを利用して、犯罪リスクを予測
+
+・学習結果を図示し、実際の犯罪分布と比較
 
 ![image](https://github.com/user-attachments/assets/c52a46a5-e55e-462f-9f6b-8b37da56a861)
