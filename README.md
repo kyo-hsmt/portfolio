@@ -4,9 +4,10 @@ pythonを使用した犯罪予測アルゴリズムの実装です。
 
 
 
-# 既存手法
-## RiskTerrainModeling(RTM)の概要
-Caplan, J., Kennedy, L., and Barnum , J.  Risk Terrain Modeling for Spatial Risk Assessment,2015(https://academicworks.cuny.edu/cgi/viewcontent.cgi?article=1192&context=jj_pubs)
+# RiskTerrainModeling(RTM)の概要
+Caplan, J., Kennedy, L., and Barnum , J.  Risk Terrain Modeling for Spatial Risk Assessment,2015
+
+(https://academicworks.cuny.edu/cgi/viewcontent.cgi?article=1192&context=jj_pubs)
 
 ・地理情報を活用して犯罪リスクを予測する手法
 
