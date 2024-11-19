@@ -1,8 +1,9 @@
 # 地理的犯罪予測手法の改良
+pythonを使用した犯罪予測アルゴリズムの実装です。  
 
-pythonを使用した犯罪予測アルゴリズムの実装です。
 
-ライブラリ
+
+
 
 
 ## 既存手法
@@ -11,12 +12,17 @@ pythonを使用した犯罪予測アルゴリズムの実装です。
 ・犯罪に関連する**地理的要因（空き家,放置車両,etc) の位置情報**を利用して、将来的な犯罪リスクを予測  
 ・視覚的に**高リスクエリア** と**低リスクエリア**を表現 
 ・犯罪に関連する**地理的要因の重要度**を分析  
-![image](https://github.com/user-attachments/assets/cbb39c9e-341d-43f5-ba96-f81a098d7044)　![image](https://github.com/user-attachments/assets/c1ee311e-60ea-4aee-8a24-19a0d6b080e0)
+![image](https://github.com/user-attachments/assets/7832af67-ed6b-4c4c-8559-56ff89e68947)
 
 
 
-### RTMのアルゴリズム
 
-## 2011~2013年を学習データ、2014年をテストデータ
-### makeGDF.ipynb:データを前処理し特徴量を生成するプログラム
-### featureGDF_2011_13.ipynb:前処理したデータを使って犯罪リスクを予測するプログラム
+### ・makeGDF.ipynb
+・シカゴを対象領域として、グリッドマップを作成  
+・犯罪に関連する地理的要因の位置情報を格納したGeoDataframeを作成    
+・ChicagoDataPortalのapiを利用  
+### ・featureGDF_2011_13.ipynb:作成したGeoDataframeを利用して、犯罪リスクを予測
+・2011年～2013年を学習データ
+・2014年をテストデータ
+・
+![image](https://github.com/user-attachments/assets/c52a46a5-e55e-462f-9f6b-8b37da56a861)
